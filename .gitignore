@@ -1,0 +1,23 @@
+# Secrets: never commit these
+.env
+.env.*
+*.env
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data and model files (too large for GitHub)
+data/
+outputs/
+models/
+banglishrev_data/
+*.joblib
+*.csv
+!sample*.csv
+
+.DS_Store
+Thumbs.db

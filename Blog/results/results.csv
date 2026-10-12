@@ -1,0 +1,6 @@
+,Accuracy,"False positive rate
+(human flagged as AI)","False negative rate
+(AI passed as human)"
+ChatGPT-RoBERTa (HC3),0.5,0.0,1.0
+OpenAI GPT-2 detector,0.44,0.71,0.41
+Perplexity (BLOOM-560m),0.41,0.59,0.59

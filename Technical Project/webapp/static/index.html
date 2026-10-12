@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BanglishCheck</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>BanglishCheck</h1>
+      <p>Paste a Banglish text (Bangla written in English letters). The detector estimates whether
+        it was written by a person or by an AI model, and shows which words and writing-style
+        signals drove the decision.</p>
+    </header>
+
+    <section class="columns">
+      <div class="col">
+        <textarea id="input" rows="6" placeholder="ami kal class e jabo na, too tired..."></textarea>
+        <div class="row">
+          <button id="check-btn">Check</button>
+          <span id="status"></span>
+        </div>
+        <div class="examples">
+          <span class="examples-label">Examples:</span>
+          <div id="examples-list"></div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <h2>Prediction</h2>
+          <div id="label" class="label-bars"></div>
+        </div>
+
+        <div class="card">
+          <h2>Word evidence</h2>
+          <p class="hint">red = AI-like, blue = human-like</p>
+          <div id="words" class="words"></div>
+        </div>
+
+        <div class="card">
+          <h2>Writing-style signals</h2>
+          <div id="stylo" class="stylo"></div>
+        </div>
+
+        <p id="note" class="note"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

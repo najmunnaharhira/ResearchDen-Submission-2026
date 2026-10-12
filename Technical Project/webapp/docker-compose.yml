@@ -1,0 +1,12 @@
+services:
+  banglishcheck:
+    build: .
+    container_name: banglishcheck
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount the model from the host so it can be swapped/retrained without
+      # rebuilding the image — just drop a new explainer.joblib here and run
+      # `docker compose restart`.
+      - ./explainer.joblib:/app/explainer.joblib:ro

@@ -36,3 +36,17 @@ The 20 papers this review is based on. The PDFs are not stored here because they
 | 18 | Mahjabin et al. (2025). Human-LLM Benchmarks for Bangla Dialect Translation: Sylheti and Chittagonian. BanglaLP | [2025.banglalp-1.18](https://aclanthology.org/2025.banglalp-1.18/) |
 | 19 | Jawad et al. (2025). Benchmarking Large Language Models on Bangla Dialect Translation and Dialectal Sentiment Analysis. BanglaLP | [2025.banglalp-1.26](https://aclanthology.org/2025.banglalp-1.26/) |
 | 20 | Hasan and Dipta (2025). BanglaTalk: Towards Real-Time Speech Assistance for Bengali Regional Dialects. BanglaLP | [2025.banglalp-1.4](https://aclanthology.org/2025.banglalp-1.4/) |
+
+## Foundational XAI papers
+
+| # | Paper | Link | DOI |
+|---|---|---|---|
+| 21 | Doshi-Velez and Kim (2017). Towards A Rigorous Science of Interpretable Machine Learning | [arXiv:1702.08608](https://arxiv.org/abs/1702.08608) | 10.48550/arXiv.1702.08608 |
+| 22 | Miller (2019). Explanation in Artificial Intelligence: Insights from the Social Sciences. Artificial Intelligence, 267:1-38 | [arXiv:1706.07269](https://arxiv.org/abs/1706.07269) | 10.1016/j.artint.2018.07.007 |
+| 23 | Ehsan and Riedl (2020). Human-centered Explainable AI: Towards a Reflective Sociotechnical Approach | [arXiv:2002.01092](https://arxiv.org/abs/2002.01092) | 10.48550/arXiv.2002.01092 (no journal/proceedings DOI confirmed — see note below) |
+| 24 | Liao, Gruen and Miller (2020). Questioning the AI: Informing Design Practices for Explainable AI User Experiences. CHI '20 | [arXiv:2001.02478](https://arxiv.org/abs/2001.02478) | 10.1145/3313831.3376590 |
+| 25 | Jacovi and Goldberg (2020). Towards Faithfully Interpretable NLP Systems: How Should We Define and Evaluate Faithfulness? ACL 2020, pp. 4198-4205 | [2020.acl-main.386](https://aclanthology.org/2020.acl-main.386/) | 10.18653/v1/2020.acl-main.386 |
+| 26 | Bansal et al. (2021). Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance. CHI '21 | [arXiv:2006.14779](https://arxiv.org/abs/2006.14779) | 10.1145/3411764.3445717 |
+| 27 | Vasconcelos et al. (2023). Explanations Can Reduce Overreliance on AI Systems During Decision-Making. PACM HCI, 7(CSCW1), Article 129 | [arXiv:2212.06823](https://arxiv.org/abs/2212.06823) | 10.1145/3579605 |
+
+Note on #23: search turned up no confirmed DOI for a published (HCII/journal) version — only the arXiv preprint is verified. Check DBLP or Google Scholar before citing if a venue-specific DOI is needed.

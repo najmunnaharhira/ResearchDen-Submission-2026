@@ -1,0 +1,10 @@
+# Caddy reverse proxy config for BanglishCheck.
+# Replace check.yourdomain.com with your real (sub)domain, then on the VPS:
+#   sudo apt install caddy       # or see https://caddyserver.com/docs/install
+#   sudo cp Caddyfile /etc/caddy/Caddyfile
+#   sudo systemctl reload caddy
+# Caddy fetches and renews the TLS certificate automatically — no certbot needed.
+
+check.yourdomain.com {
+    reverse_proxy 127.0.0.1:8000
+}

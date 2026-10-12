@@ -107,6 +107,7 @@ AI reviews use tidier punctuation and longer words and sentences.
 | `notebooks/BanglishCheck_Colab.ipynb` | Full pipeline in Colab: data, models, explanations, tests, figures, demo files |
 | `banglishcheck.py` | Shared code: cleaning, features, models, metrics, the explainer |
 | `app/` | The Gradio demo for Hugging Face Spaces |
+| `webapp/` | Standalone FastAPI + plain HTML/JS web app for deploying on your own domain (see [webapp/README.md](webapp/README.md)) |
 | `docs/figures/` | Figures used in this README and the report |
 
 ## Run it
@@ -114,7 +115,7 @@ AI reviews use tidier punctuation and longer words and sentences.
 **Full pipeline:** upload the four CSV files to `MyDrive/banglishcheck/data/`, open the notebook in Colab with a
 T4 GPU, and choose Run all. Results go to `MyDrive/banglishcheck/outputs/`.
 
-**Demo locally:**
+**Gradio demo locally (for Hugging Face Spaces):**
 
 ```bash
 cd app
@@ -122,6 +123,10 @@ pip install -r requirements.txt
 # put banglishcheck.py and explainer.joblib (from outputs/space/) next to app.py
 python app.py
 ```
+
+**Standalone web app (for your own domain):** see [webapp/README.md](webapp/README.md) — it's a
+self-contained folder (FastAPI backend, no Gradio/matplotlib) with a Dockerfile, meant to be
+deployed on a VPS or any Docker-friendly host behind your own domain.
 
 ## Limitations and future work
 

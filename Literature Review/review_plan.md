@@ -47,15 +47,17 @@ About 3,500 words, to be adjusted once the expected length is announced.
 - **Romanized spelling varies a lot.** BanglaTLit shows one word written many ways ("bhalo", "valo", "vlo"), so word-level explanations may be unstable for Banglish (an open question, not yet tested).
 - **Hedging differs by language.** Rathi et al. show people read uncertainty phrases differently across languages; this has not been checked for Bangla.
 
-## Foundational papers to add (to verify before citing)
+## Foundational papers (added, verified)
 
-- Doshi-Velez and Kim (2017), "Towards a Rigorous Science of Interpretable Machine Learning"
-- Miller (2019), "Explanation in Artificial Intelligence: Insights from the Social Sciences"
-- Ehsan and Riedl (2020), "Human-centered Explainable AI: Towards a Reflective Sociotechnical Approach"
-- Liao, Gruen and Miller (2020), "Questioning the AI: Informing Design Practices for Explainable AI User Experiences"
-- Jacovi and Goldberg (2020), "Towards Faithfully Interpretable NLP Systems"
-- Bansal et al. (2021), "Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance"
-- Vasconcelos et al. (2023), "Explanations Can Reduce Overreliance on AI Systems During Decision-Making"
+Links and DOIs checked and added to [papers.md](papers.md) (#21-27) and the reading matrix (rows 22-28).
+
+- Doshi-Velez and Kim (2017), "Towards a Rigorous Science of Interpretable Machine Learning" — arXiv:1702.08608
+- Miller (2019), "Explanation in Artificial Intelligence: Insights from the Social Sciences" — Artificial Intelligence 267:1-38, DOI 10.1016/j.artint.2018.07.007
+- Ehsan and Riedl (2020), "Human-centered Explainable AI: Towards a Reflective Sociotechnical Approach" — arXiv:2002.01092 (no venue-specific DOI confirmed; double-check DBLP before citing)
+- Liao, Gruen and Miller (2020), "Questioning the AI: Informing Design Practices for Explainable AI User Experiences" — CHI '20, DOI 10.1145/3313831.3376590
+- Jacovi and Goldberg (2020), "Towards Faithfully Interpretable NLP Systems" — ACL 2020, DOI 10.18653/v1/2020.acl-main.386
+- Bansal et al. (2021), "Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance" — CHI '21, DOI 10.1145/3411764.3445717
+- Vasconcelos et al. (2023), "Explanations Can Reduce Overreliance on AI Systems During Decision-Making" — PACM HCI 7(CSCW1), DOI 10.1145/3579605
 
 ## Steps
 

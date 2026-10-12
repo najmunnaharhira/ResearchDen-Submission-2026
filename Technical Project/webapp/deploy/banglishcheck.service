@@ -1,0 +1,26 @@
+# systemd unit for running the app directly on a VPS (no Docker).
+# Use this OR Docker — not both. Adjust User/WorkingDirectory/ExecStart paths.
+#
+# Setup on the VPS:
+#   sudo useradd -r -s /usr/sbin/nologin banglishcheck      # once
+#   cd /opt && sudo git clone <your-repo> banglishcheck-app  # or scp the webapp/ folder here
+#   cd /opt/banglishcheck-app && python3 -m venv .venv
+#   .venv/bin/pip install -r requirements.txt
+#   sudo cp deploy/banglishcheck.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now banglishcheck
+
+[Unit]
+Description=BanglishCheck FastAPI app
+After=network.target
+
+[Service]
+Type=simple
+User=banglishcheck
+WorkingDirectory=/opt/banglishcheck-app
+ExecStart=/opt/banglishcheck-app/.venv/bin/uvicorn main:app --host 127.0.0.1 --port 8000
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

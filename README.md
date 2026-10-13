@@ -10,6 +10,6 @@ Najmun Nahar, Research Intern, Fall 2026.
 
 ## Technical project links
 
-- Live demo: `TODO: Hugging Face Space link`
-- Demo video: `TODO: link`
+- Live demo: https://huggingface.co/spaces/najmunnaharhira/BanglishCheck
+- Demo video: 
 - Technical report: [`Technical Project/report/BanglishCheck_Technical_Report_FINAL.pdf`](<Technical Project/report/BanglishCheck_Technical_Report_FINAL.pdf>) · [editable Word version](<Technical Project/report/BanglishCheck_Technical_Report_FINAL.docx>)

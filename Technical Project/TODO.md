@@ -16,10 +16,10 @@ The blog is due the same day. Tick each box as you go (change `[ ]` to `[x]`).
 - [ ] If Colab fails or runs out of time, skip it: the classical results already in the README are enough to submit
 
 ## Wed 14 – Fri 16 Oct: technical report
-- [ ] Rewrite the report draft (`report/BanglishCheck_Technical_Report_DRAFT.docx`) in your own words. It already has the real numbers and figures; yellow marks what to fill in
-- [ ] Add the XLM-R numbers from Colab, or keep the XLM-R part as future work
-- [ ] Add the BanglishRev citation
-- [ ] Export it as PDF
+- [x] Finalize the report (`report/BanglishCheck_Technical_Report_FINAL.docx`) and remove draft placeholders/highlights
+- [x] Keep XLM-R explicitly as future work until a completed Colab run is available
+- [x] Add the BanglishRev citation
+- [x] Export it as PDF (`report/BanglishCheck_Technical_Report_FINAL.pdf`)
 
 ## Sat 17 Oct: demo video (bonus, 3–5 minutes)
 - [ ] Record your screen: what the problem is, then the Space with a human text and an AI text, then the highlighted words and style chart

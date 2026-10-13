@@ -10,7 +10,7 @@ the score towards AI or human, and which writing-style signals mattered.
 |---|---|
 | **Live demo** | `TODO: Hugging Face Space link` |
 | **Demo video** | `TODO: link` |
-| **Technical report** | `TODO: link` |
+| **Technical report** | [PDF](report/BanglishCheck_Technical_Report_FINAL.pdf) · [editable Word version](report/BanglishCheck_Technical_Report_FINAL.docx) |
 
 ## Why build this
 
@@ -78,7 +78,9 @@ are flagged.
 | Word n-grams + LR | 96.1% | 0.995 | 97.2% |
 | Char n-grams + LR | 97.4% | 0.998 | 98.8% |
 | **Full classical (deployed)** | **96.5%** | **0.996** | **99.6%** |
-| XLM-R (fine-tuned) | `TODO from Colab` | | |
+| XLM-R (planned) | Not run | Not run | Not run |
+
+The XLM-RoBERTa experiment remains future work. The report does not infer transformer performance from the classical results.
 
 **Unseen AI model test.** Train on two AI models, test on the third:
 
@@ -109,6 +111,8 @@ AI reviews use tidier punctuation and longer words and sentences.
 | `app/` | The Gradio demo for Hugging Face Spaces |
 | `webapp/` | Standalone FastAPI + plain HTML/JS web app for deploying on your own domain (see [webapp/README.md](webapp/README.md)) |
 | `docs/figures/` | Figures used in this README and the report |
+| `report/BanglishCheck_Technical_Report_FINAL.pdf` | Submission-ready technical report |
+| `report/BanglishCheck_Technical_Report_FINAL.docx` | Editable version of the final technical report |
 
 ## Run it
 
@@ -138,7 +142,7 @@ deployed on a VPS or any Docker-friendly host behind your own domain.
 
 ## References
 
-- BanglishRev dataset: `TODO: add the citation`
+- Shamael, M. N., Nawshin, S., Shatabda, S., & Islam, S. (2024). [BanglishRev: A Large-Scale Bangla-English and Code-mixed Dataset of Product Reviews in E-Commerce](https://arxiv.org/abs/2412.13161). Dataset available from [Hugging Face](https://huggingface.co/datasets/BanglishRev/bangla-english-and-code-mixed-ecommerce-review-dataset).
 - Conneau et al., 2020. Unsupervised Cross-lingual Representation Learning at Scale (XLM-R).
 - Lundberg and Lee, 2017. A Unified Approach to Interpreting Model Predictions (SHAP).
 - Sundararajan et al., 2017. Axiomatic Attribution for Deep Networks (Integrated Gradients).

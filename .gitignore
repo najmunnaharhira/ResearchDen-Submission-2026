@@ -9,6 +9,7 @@ env/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.rendered*/
 
 # Data and model files (too large for GitHub)
 data/
